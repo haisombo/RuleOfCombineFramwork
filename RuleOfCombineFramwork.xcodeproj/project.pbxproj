@@ -13,6 +13,28 @@
 		83E13B652C3B89D200C830EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E13B632C3B89D200C830EA /* Main.storyboard */; };
 		83E13B672C3B89D400C830EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E13B662C3B89D400C830EA /* Assets.xcassets */; };
 		83E13B6A2C3B89D400C830EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E13B682C3B89D400C830EA /* LaunchScreen.storyboard */; };
+		83E13B7E2C3B8B7400C830EA /* Router+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E13B7D2C3B8B7400C830EA /* Router+Request.swift */; };
+		83E13B802C3B8B8400C830EA /* NSMutableData+Append.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E13B7F2C3B8B8400C830EA /* NSMutableData+Append.swift */; };
+		83E13B822C3B8B9100C830EA /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E13B812C3B8B9100C830EA /* Router.swift */; };
+		83E13B842C3B8B9D00C830EA /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E13B832C3B8B9D00C830EA /* ImageData.swift */; };
+		83E13B882C3B8BE800C830EA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E13B872C3B8BE800C830EA /* NetworkManager.swift */; };
+		83E13B8A2C3B8C0300C830EA /* ErrorParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E13B892C3B8C0300C830EA /* ErrorParser.swift */; };
+		83E13B8C2C3B8C1000C830EA /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E13B8B2C3B8C1000C830EA /* ErrorMessage.swift */; };
+		83E13B8E2C3B8C1B00C830EA /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E13B8D2C3B8C1B00C830EA /* Errors.swift */; };
+		83E13B912C3B8C5600C830EA /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E13B902C3B8C5600C830EA /* Environment.swift */; };
+		83E13B932C3B8C6F00C830EA /* HTTPHeaderField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E13B922C3B8C6F00C830EA /* HTTPHeaderField.swift */; };
+		83E13B952C3B8C7E00C830EA /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E13B942C3B8C7E00C830EA /* HTTPMethod.swift */; };
+		83E13B972C3B8C9400C830EA /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E13B962C3B8C9400C830EA /* NetworkLogger.swift */; };
+		83E13B992C3B8CA900C830EA /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E13B982C3B8CA900C830EA /* NetworkConstant.swift */; };
+		83E13B9B2C3B8CB600C830EA /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E13B9A2C3B8CB600C830EA /* EndPoint.swift */; };
+		83E13B9D2C3B8DE300C830EA /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E13B9C2C3B8DE300C830EA /* NetworkMonitor.swift */; };
+		83E13B9F2C3B8E2500C830EA /* StatusCode+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E13B9E2C3B8E2500C830EA /* StatusCode+Helper.swift */; };
+		83E13BA12C3B8E3B00C830EA /* CustomStringConvertible+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E13BA02C3B8E3B00C830EA /* CustomStringConvertible+Codable.swift */; };
+		83E13BA32C3B8E5000C830EA /* Data+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E13BA22C3B8E5000C830EA /* Data+Ext.swift */; };
+		83E13BA52C3B8F1E00C830EA /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E13BA42C3B8F1E00C830EA /* String.swift */; };
+		83E13BAC2C3BA17100C830EA /* LogInVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E13BAB2C3BA17100C830EA /* LogInVM.swift */; };
+		83E13BAE2C3BA18200C830EA /* LogInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E13BAD2C3BA18200C830EA /* LogInModel.swift */; };
+		83E13BB12C3BA52000C830EA /* LogInRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E13BB02C3BA52000C830EA /* LogInRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +46,28 @@
 		83E13B662C3B89D400C830EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83E13B692C3B89D400C830EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83E13B6B2C3B89D400C830EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83E13B7D2C3B8B7400C830EA /* Router+Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Router+Request.swift"; sourceTree = "<group>"; };
+		83E13B7F2C3B8B8400C830EA /* NSMutableData+Append.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableData+Append.swift"; sourceTree = "<group>"; };
+		83E13B812C3B8B9100C830EA /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		83E13B832C3B8B9D00C830EA /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		83E13B872C3B8BE800C830EA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		83E13B892C3B8C0300C830EA /* ErrorParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorParser.swift; sourceTree = "<group>"; };
+		83E13B8B2C3B8C1000C830EA /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		83E13B8D2C3B8C1B00C830EA /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		83E13B902C3B8C5600C830EA /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		83E13B922C3B8C6F00C830EA /* HTTPHeaderField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHeaderField.swift; sourceTree = "<group>"; };
+		83E13B942C3B8C7E00C830EA /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		83E13B962C3B8C9400C830EA /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		83E13B982C3B8CA900C830EA /* NetworkConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
+		83E13B9A2C3B8CB600C830EA /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		83E13B9C2C3B8DE300C830EA /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		83E13B9E2C3B8E2500C830EA /* StatusCode+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StatusCode+Helper.swift"; sourceTree = "<group>"; };
+		83E13BA02C3B8E3B00C830EA /* CustomStringConvertible+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomStringConvertible+Codable.swift"; sourceTree = "<group>"; };
+		83E13BA22C3B8E5000C830EA /* Data+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Ext.swift"; sourceTree = "<group>"; };
+		83E13BA42C3B8F1E00C830EA /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		83E13BAB2C3BA17100C830EA /* LogInVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVM.swift; sourceTree = "<group>"; };
+		83E13BAD2C3BA18200C830EA /* LogInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInModel.swift; sourceTree = "<group>"; };
+		83E13BB02C3BA52000C830EA /* LogInRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +100,141 @@
 		83E13B5C2C3B89D200C830EA /* RuleOfCombineFramwork */ = {
 			isa = PBXGroup;
 			children = (
-				83E13B5D2C3B89D200C830EA /* AppDelegate.swift */,
-				83E13B5F2C3B89D200C830EA /* SceneDelegate.swift */,
-				83E13B612C3B89D200C830EA /* ViewController.swift */,
-				83E13B632C3B89D200C830EA /* Main.storyboard */,
+				83E13BA72C3B947C00C830EA /* Application */,
+				83E13BA62C3B946C00C830EA /* AppDelegate */,
+				83E13B752C3B8AFE00C830EA /* Utility */,
 				83E13B662C3B89D400C830EA /* Assets.xcassets */,
 				83E13B682C3B89D400C830EA /* LaunchScreen.storyboard */,
 				83E13B6B2C3B89D400C830EA /* Info.plist */,
 			);
 			path = RuleOfCombineFramwork;
+			sourceTree = "<group>";
+		};
+		83E13B752C3B8AFE00C830EA /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				83E13B782C3B8B0F00C830EA /* Routers */,
+				83E13B792C3B8B2100C830EA /* NetworkManager */,
+				83E13B7A2C3B8B2C00C830EA /* NetworkError */,
+				83E13B8F2C3B8C3200C830EA /* Utility */,
+				83E13B7C2C3B8B4700C830EA /* NetworkMonitor */,
+				83E13B7B2C3B8B3B00C830EA /* Extention */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		83E13B782C3B8B0F00C830EA /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				83E13B7D2C3B8B7400C830EA /* Router+Request.swift */,
+				83E13B7F2C3B8B8400C830EA /* NSMutableData+Append.swift */,
+				83E13B812C3B8B9100C830EA /* Router.swift */,
+				83E13B832C3B8B9D00C830EA /* ImageData.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		83E13B792C3B8B2100C830EA /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				83E13B872C3B8BE800C830EA /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		83E13B7A2C3B8B2C00C830EA /* NetworkError */ = {
+			isa = PBXGroup;
+			children = (
+				83E13B892C3B8C0300C830EA /* ErrorParser.swift */,
+				83E13B8B2C3B8C1000C830EA /* ErrorMessage.swift */,
+				83E13B8D2C3B8C1B00C830EA /* Errors.swift */,
+			);
+			path = NetworkError;
+			sourceTree = "<group>";
+		};
+		83E13B7B2C3B8B3B00C830EA /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				83E13B9E2C3B8E2500C830EA /* StatusCode+Helper.swift */,
+				83E13BA02C3B8E3B00C830EA /* CustomStringConvertible+Codable.swift */,
+				83E13BA22C3B8E5000C830EA /* Data+Ext.swift */,
+				83E13BA42C3B8F1E00C830EA /* String.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		83E13B7C2C3B8B4700C830EA /* NetworkMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				83E13B9C2C3B8DE300C830EA /* NetworkMonitor.swift */,
+			);
+			path = NetworkMonitor;
+			sourceTree = "<group>";
+		};
+		83E13B8F2C3B8C3200C830EA /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				83E13B902C3B8C5600C830EA /* Environment.swift */,
+				83E13B9A2C3B8CB600C830EA /* EndPoint.swift */,
+				83E13B922C3B8C6F00C830EA /* HTTPHeaderField.swift */,
+				83E13B942C3B8C7E00C830EA /* HTTPMethod.swift */,
+				83E13B962C3B8C9400C830EA /* NetworkLogger.swift */,
+				83E13B982C3B8CA900C830EA /* NetworkConstant.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		83E13BA62C3B946C00C830EA /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				83E13B5D2C3B89D200C830EA /* AppDelegate.swift */,
+				83E13B5F2C3B89D200C830EA /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		83E13BA72C3B947C00C830EA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				83E13BAF2C3BA4F300C830EA /* Request */,
+				83E13BAA2C3BA15400C830EA /* View */,
+				83E13BA92C3BA14500C830EA /* ViewModel */,
+				83E13BA82C3BA13D00C830EA /* Model */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		83E13BA82C3BA13D00C830EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83E13BAD2C3BA18200C830EA /* LogInModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		83E13BA92C3BA14500C830EA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				83E13BAB2C3BA17100C830EA /* LogInVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		83E13BAA2C3BA15400C830EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				83E13B612C3B89D200C830EA /* ViewController.swift */,
+				83E13B632C3B89D200C830EA /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		83E13BAF2C3BA4F300C830EA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				83E13BB02C3BA52000C830EA /* LogInRequest.swift */,
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +308,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E13BA12C3B8E3B00C830EA /* CustomStringConvertible+Codable.swift in Sources */,
+				83E13B882C3B8BE800C830EA /* NetworkManager.swift in Sources */,
+				83E13BB12C3BA52000C830EA /* LogInRequest.swift in Sources */,
+				83E13B8C2C3B8C1000C830EA /* ErrorMessage.swift in Sources */,
 				83E13B622C3B89D200C830EA /* ViewController.swift in Sources */,
+				83E13B8E2C3B8C1B00C830EA /* Errors.swift in Sources */,
+				83E13B802C3B8B8400C830EA /* NSMutableData+Append.swift in Sources */,
+				83E13BA32C3B8E5000C830EA /* Data+Ext.swift in Sources */,
 				83E13B5E2C3B89D200C830EA /* AppDelegate.swift in Sources */,
+				83E13B932C3B8C6F00C830EA /* HTTPHeaderField.swift in Sources */,
+				83E13B9D2C3B8DE300C830EA /* NetworkMonitor.swift in Sources */,
+				83E13B972C3B8C9400C830EA /* NetworkLogger.swift in Sources */,
+				83E13B992C3B8CA900C830EA /* NetworkConstant.swift in Sources */,
+				83E13BA52C3B8F1E00C830EA /* String.swift in Sources */,
+				83E13B9F2C3B8E2500C830EA /* StatusCode+Helper.swift in Sources */,
+				83E13B952C3B8C7E00C830EA /* HTTPMethod.swift in Sources */,
+				83E13B8A2C3B8C0300C830EA /* ErrorParser.swift in Sources */,
+				83E13B9B2C3B8CB600C830EA /* EndPoint.swift in Sources */,
+				83E13B912C3B8C5600C830EA /* Environment.swift in Sources */,
+				83E13B822C3B8B9100C830EA /* Router.swift in Sources */,
 				83E13B602C3B89D200C830EA /* SceneDelegate.swift in Sources */,
+				83E13B7E2C3B8B7400C830EA /* Router+Request.swift in Sources */,
+				83E13BAE2C3BA18200C830EA /* LogInModel.swift in Sources */,
+				83E13BAC2C3BA17100C830EA /* LogInVM.swift in Sources */,
+				83E13B842C3B8B9D00C830EA /* ImageData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +492,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +521,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
